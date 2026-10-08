@@ -79,7 +79,7 @@ Sales-and-returns-Powerbi-dashboard/
 ## 👤 Author
 
 **Your Name**
-- LinkedIn: (https://linkedin.com/in/parvanaaghayeva)
+- LinkedIn: [(https://linkedin.com/in/parvanaaghayeva)](https://www.linkedin.com/in/parvana-aghayeva-90482a213?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
 - GitHub: [@parvanaghayeva](https://github.com/parvanaghayeva)
 
 ## 📄 License
