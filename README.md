@@ -1,28 +1,32 @@
-
-
-
 # 📊 Sales and Returns Power BI Dashboard
 
-An interactive **Power BI** dashboard built on the **AdventureWorks** sample data. It analyzes customer segments, product performance, returns, and progress against sales targets in one place.
+An interactive **Power BI** dashboard built on the **AdventureWorks** sample data. It brings sales performance, product results, returns, and customer profiles together in a three-page report with category, region, and date filters.
+
+📄 [Download the dashboard as PDF](AdventureWorks_Dashbord.pdf)
 
 ## 🎯 Project Goals
 
-- Identify who orders the most (gender, status, occupation, age)
-- Track monthly order and revenue trends
-- Drill into individual products by revenue, orders, and returns
-- Compare actual results against targets
+- Track sales performance against revenue, order, and return targets
+- Find the best-selling categories, subcategories, and products
+- Analyze a single product in detail (revenue, orders, returns, yearly trend)
+- Understand the customer base by gender, status, occupation, and lifestyle profile
 
 ## 🖼️ Dashboard Pages
 
-### 1. Customer Analysis
-Total order quantity per customer, gender / status / occupation breakdowns, an age treemap, and the monthly orders-vs-revenue trend.
+### 1. Sales Overview
+Target KPIs (revenue, orders, returns), quantity by subcategory, top 10 products, and the category share of total quantity. Filter by category, region (Europe, North America, Pacific), and date range (1/1/2015 – 6/30/2017).
 
-### 2. Product Results
-Total revenue, orders, and returns for a selected product (example: **HL Mountain Tire**), plus yearly quantity and revenue trends and daily returns.
+![Sales Overview](Screenshorts/01_sales_overview.png)
 
-### 3. Category and Targets
-Sales by category and subcategory, a product-level table, date and continent filters, and target KPIs for revenue, orders, and returns.
+### 2. Products Result
+A drill-down page for a selected product (example: **HL Mountain Tire**) showing total revenue, total orders, total returns, the quantity trend over time, and revenue and returns by year. A back button returns to the overview.
 
+![Products Result](Screenshorts/02_products_result.png)
+
+### 3. Customers
+Customer-level order quantities, gender / status / occupation breakdowns, the monthly orders-vs-revenue trend, and a customer profile card (gender, marital status, home ownership, education). Includes category and region slicers and a **Clear all slicers** button.
+
+![Customers](Screenshorts/03_customers.png)
 
 ## 📌 Key Metrics
 
@@ -37,13 +41,22 @@ Sales by category and subcategory, a product-level table, date and continent fil
 
 ## 🔍 Key Insights
 
-- **Gender split is nearly even:** about 42K male and 41K female customers.
-- **Around 90% of customers are in the "Low" status group** (~76K), with "Medium" at about 8.7%.
-- **Professional is the largest occupation group** (~31%), followed by Skilled and Management.
-- **Seasonality:** orders and revenue peak in May–June and drop sharply in July (this may be because the data range ends on 30 June 2017).
-- **Top-selling products:** Mountain Tire Tube (11.31%), AWC Logo Cap (8.19%), Fender Set - Mountain (7.85%), Mountain Bottle Cage (7.53%).
-- **By category,** Accessories dominates sales, and Tires and Tubes is the top subcategory.
+**Sales**
+- **Accessories dominate sales:** 57,809 units (68.67%), followed by Bikes (13,929) and Clothing (12,436, 14.77%).
+- **Tires and Tubes is the top subcategory,** followed by Bottles and Cages and Road Bikes.
+- **Top 10 products** include Water Bottle - 30 oz. (9.01%), Road Tire Tube (6.50%), AWC Logo Cap (6.34%), Patch Kit/8 Patches (6.24%), and Touring Tire Tube (5.52%).
 - Revenue and order targets were not fully met, while returns performed better than target.
+
+**Product (HL Mountain Tire)**
+- Quantity sold grew from July 2016 and peaked around May 2017.
+- Revenue was higher in 2017 than in 2016, and returns were also higher in 2017.
+
+**Customers**
+- **Gender is nearly balanced:** about 42K male and 41K female records; the profile card shows 51% male and 49% female.
+- **About 90% of customers are in the "Low" status group** (~76K); "Medium" is about 8.7%.
+- **Professional is the largest occupation group** (~31%), followed by Skilled (~23.5%) and Management.
+- **Customer profile:** 66% are homeowners, 51% are single, and 65% have no degree.
+- **Orders and revenue peak in May–June** and drop sharply in July, which may be because the data range ends on 30 June 2017.
 
 ## 🛠️ Tools & Technologies
 
@@ -58,11 +71,11 @@ Sales by category and subcategory, a product-level table, date and continent fil
 Sales-and-returns-Powerbi-dashboard/
 ├── README.md
 ├── AdventureWorks_Dashboard.pbix
-├── screenshots/
-│   ├── 01_customer_analysis.png
-│   ├── 02_product_results.png
-│   └── 03_category_targets.png
-└── data/
+├── AdventureWorks_Dashbord.pdf
+└── Screenshorts/
+    ├── 01_sales_overview.png
+    ├── 02_products_result.png
+    └── 03_customers.png
 ```
 
 ## ▶️ How to Use
@@ -79,7 +92,7 @@ Sales-and-returns-Powerbi-dashboard/
 ## 👤 Author
 
 **Your Name**
-- LinkedIn: [(https://linkedin.com/in/parvanaaghayeva)](https://www.linkedin.com/in/parvana-aghayeva-90482a213?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
+- LinkedIn: [your-profile](https://linkedin.com/in/)
 - GitHub: [@parvanaghayeva](https://github.com/parvanaghayeva)
 
 ## 📄 License
