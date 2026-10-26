@@ -16,17 +16,12 @@ An interactive **Power BI** dashboard built on the **AdventureWorks** sample dat
 ### 1. Sales Overview
 Target KPIs (revenue, orders, returns), quantity by subcategory, top 10 products, and the category share of total quantity. Filter by category, region (Europe, North America, Pacific), and date range (1/1/2015 – 6/30/2017).
 
-![Sales Overview](Screenshorts/01_sales_overview.png)
-
 ### 2. Products Result
 A drill-down page for a selected product (example: **HL Mountain Tire**) showing total revenue, total orders, total returns, the quantity trend over time, and revenue and returns by year. A back button returns to the overview.
-
-![Products Result](Screenshorts/02_products_result.png)
 
 ### 3. Customers
 Customer-level order quantities, gender / status / occupation breakdowns, the monthly orders-vs-revenue trend, and a customer profile card (gender, marital status, home ownership, education). Includes category and region slicers and a **Clear all slicers** button.
 
-![Customers](Screenshorts/03_customers.png)
 
 ## 📌 Key Metrics
 
@@ -92,7 +87,7 @@ Sales-and-returns-Powerbi-dashboard/
 ## 👤 Author
 
 **Your Name**
-- LinkedIn: [your-profile](https://linkedin.com/in/)
+- LinkedIn:(https://www.linkedin.com/in/parvana-aghayeva-90482a213/?isSelfProfile=true)
 - GitHub: [@parvanaghayeva](https://github.com/parvanaghayeva)
 
 ## 📄 License
